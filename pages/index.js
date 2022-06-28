@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>NFT MarketPlace App preview website</h1>
+      <h1 className="text-5xl bg-slate-500 text-red-500">NFT MarketPlace App preview website here</h1>
     </div>
   );
 }
