@@ -31,31 +31,21 @@ a {
   }
 
   .banner02 {
-    background: url("/banner02.svg");
-    background-color: #0b65c6;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+
+    @apply bg-[url('../assets/banner02.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+    
   }
 
   .banner03 {
-    background: url("/banner03.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+
+    @apply bg-[url('../assets/banner03.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+
   }
 
   .banner04 {
-    background: url("/banner04.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+
+    @apply bg-[url('../assets/banner04.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+
   }
 
   .fadeLeftMini {
