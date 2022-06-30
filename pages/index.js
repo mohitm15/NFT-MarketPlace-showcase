@@ -29,6 +29,29 @@ export default function Home() {
       />
 
       <Features />
+
+      <Sectionwrapper
+        title="Deployment"
+        description="MohitNef is built using Expo which runs natively on all  user's devices. You can easily get your app into people's hands"
+        mockupImg={assets.feature.src}
+        reverse
+      />
+
+      <Sectionwrapper
+        title="Creative way to showcase the store"
+        description="The app contains two screens. The first screen list all NFTs while the second shows the details of a specific NFT."
+        
+        mockupImg={assets.mockup.src}
+        banner="banner02"
+      />
+
+      <Download />
+
+      <div className="px-4 py-4  justify-center items-center bg-blue-900 flex-col text-center">
+        <p className="my-2  font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white">Made with 💖 by </p>
+        <span className="text-white font-IBMPlex text-2xl minmd:text-4xl mb-10 minlg:text-5xl">Mohit Maroliya</span>
+      </div>
+
     </>
   );
 }
