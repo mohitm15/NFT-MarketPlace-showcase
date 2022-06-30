@@ -27,6 +27,8 @@ export default function Home() {
         mockupImg={assets.homeCards.src}
         reverse
       />
+
+      <Features />
     </>
   );
 }
