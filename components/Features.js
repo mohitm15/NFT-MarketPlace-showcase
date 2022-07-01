@@ -33,7 +33,7 @@ const Features = () => {
             Technologies
           </h1>
           <p
-            className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16`}
+            className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white`}
           >
             MohitNef has been developed using a cross-platform technology,
             React-Native.

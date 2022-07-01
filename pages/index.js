@@ -40,7 +40,6 @@ export default function Home() {
       <Sectionwrapper
         title="Creative way to showcase the store"
         description="The app contains two screens. The first screen list all NFTs while the second shows the details of a specific NFT."
-        
         mockupImg={assets.mockup.src}
         banner="banner02"
       />
@@ -48,10 +47,13 @@ export default function Home() {
       <Download />
 
       <div className="px-4 py-4  justify-center items-center bg-blue-900 flex-col text-center">
-        <p className="my-2  font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white">Made with 💖 by </p>
-        <span className="text-white font-IBMPlex text-2xl minmd:text-4xl mb-10 minlg:text-5xl">Mohit Maroliya</span>
+        <p className="my-2  font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 text-white">
+          Made with 💖 by{" "}
+        </p>
+        <span className="text-white font-IBMPlex text-2xl minmd:text-4xl mb-10 minlg:text-5xl">
+          Mohit Maroliya
+        </span>
       </div>
-
     </>
   );
 }

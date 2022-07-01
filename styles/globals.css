@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,30 +21,21 @@ a {
   box-sizing: border-box;
 }
 
-
 @layer components {
-
-
   .banner {
     @apply bg-[url('../assets/banner.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
   }
 
   .banner02 {
-
     @apply bg-[url('../assets/banner02.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
-    
   }
 
   .banner03 {
-
     @apply bg-[url('../assets/banner03.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
-
   }
 
   .banner04 {
-
     @apply bg-[url('../assets/banner04.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
-
   }
 
   .fadeLeftMini {

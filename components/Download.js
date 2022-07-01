@@ -16,10 +16,16 @@ const Download = () => {
           </p>
         </div>
         <button className="bg-black mt-4 py-4 px-6 text-white text-lg minmd:text-2xl font-IBMPlex font-medium rounded-lg hover:shadow-2xl focus:outline-none ">
-          <Link href="https://github.com/mohitm15/NFT-MarketPlace-App">Source Code</Link>
+          <Link href="https://github.com/mohitm15/NFT-MarketPlace-App">
+            Source Code
+          </Link>
         </button>
         <div className="flex justify-center items-center">
-          <img src={assets.scene.src} alt="last image" className="w-full h-full object-cover"/>
+          <img
+            src={assets.scene.src}
+            alt="last image"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,4 @@
 import React from "react";
-//import mockupImg from "../assets/home_hero.png";
-import styles from "../styles/global";
 import assets from "../assets";
 import Button from "./Button";
 
@@ -22,21 +20,33 @@ const Sectionwrapper = ({
       <div
         className={`flex items-center w-11/12 sm:w-full minmd:w-3/4 ${
           reverse
-            ? "flex-row-reverse md:flex-col-reverse"
-            : "flex-row md:flex-col"
+            ? "flex-row-reverse md:flex-col-reverse fadeRightMini"
+            : "flex-row md:flex-col fadeLeftMini"
         } `}
       >
-        <div className={`flex-1 w-full flex justify-start flex-col md:mb-10 ${reverse? 'text-right': 'text-left'}`}>
-          <h1 className={`font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13 ${reverse?'text-black':'text-white'}`}>
+        <div
+          className={`flex-1 w-full flex justify-start flex-col md:mb-10 ${
+            reverse ? "text-right" : "text-left"
+          }`}
+        >
+          <h1
+            className={`font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13 ${
+              reverse ? "text-black" : "text-white"
+            }`}
+          >
             {title}
           </h1>
-          <p className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 ${reverse?'text-black':'text-white'} `}>
+          <p
+            className={`my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 ${
+              reverse ? "text-black" : "text-white"
+            } `}
+          >
             {description}
           </p>
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link="deployed nft market place app"
+              link="https://expo.dev/@mohit_maroliya/NFTMarketApp?serviceType=classic&distribution=expo-go"
             />
           )}
         </div>
