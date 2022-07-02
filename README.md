@@ -1,34 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+
+  <h1 align="center">NFT MarketPlace Showcase Website</h1>
+
+  <p align="center">
+    Your own store of NFTs. Start Selling and Growing
+    <br />
+    <a href="https://github.com/mohitm15/NFT-MarketPlace-App"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
+
+<img width="2000" alt="scene" src="https://user-images.githubusercontent.com/35539313/176999378-5effdb6c-d639-43bb-8ecb-a7b1ce85c8cb.png">
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+`NFT MarketPlace Showcase Website` is a web application based on `NextJS` and `TaiwlindCSS` which is build with sole purpose to promote the NFTMArketPlace Android Application. With this app you can Buy, Store, Collect NFTs and Earn crypto. 
+
+Join 10 Million+ people using NFT MarketPlace App. Experience a buttery UI of Mohit NFT MarketPlace. Smooth constant color of a fluent UI design.
+
+[Find App Here](https://expo.dev/@mohit_maroliya/NFTMarketApp?serviceType=classic&distribution=expo-go)
+
+[Find SourceCode Here](https://github.com/mohitm15/NFT-MarketPlace-App)
+
+### Website Built With
+
+- [React-Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+
+## Preview
+
+### Live
+
+https://nft-market-place-showcase.vercel.app/
+
+
+![Screenshot from 2022-07-01 07-21-32](https://user-images.githubusercontent.com/35539313/177000105-588b2f16-74c4-4deb-bcc9-b9ec12013e13.png)
+
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+Go to [app](https://github.com/mohitm15/NFT-MarketPlace-App) and follow the instructions mentioned in its readme 
+ 
+ 
+ ### OR
+ 
+ 
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
+### Prerequisites
+
+- Packages are mentioend in Package.json file which you need to use the software. To install them refer the Installation section.
+- Any code editor of your choice (VScode preferable )
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/mohitm15/NFT-MarketPlace-App
+   ```
+2. Install npm
+
+```sh
+ npm install npm@latest -g
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Intalling `Expo CLI`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+ npm install --global expo-cli
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Install npm packages mentiioned in package.json file
+   ```sh
+   npm install or npm i
+   ```
+5. To run the workspace on your mobile, install expo app from `Google Playstore`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Running the code
 
-## Learn More
+1. To run the react-native server , go to root folder directory by
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   cd NFT-MarketPlace-App
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   and then
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```sh
+   npm start
+   ```
 
-## Deploy on Vercel
+   The server will run on `localhost:/19002`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Now open the `expo` app installed in mobile and scan the QR code shown at `localhost:/19002`.
+3. This will open the app , now you're ready to contribute.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- CONTACT -->
+
+## Contact
+
+Your Name -Mohit Maroliya
+
+App Project Link: [https://github.com/mohitm15/NFT-MarketPlace-App](https://github.com/mohitm15/NFT-MarketPlace-App)
+
+
+Website Project Link: [https://github.com/mohitm15/NFT-MarketPlace-showcase](https://github.com/mohitm15/NFT-MarketPlace-showcase)
