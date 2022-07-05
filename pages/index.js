@@ -1,6 +1,5 @@
 import Head from "next/head";
 import assets from "../assets";
-import styles from "../styles/Home.module.css";
 import { Download, Features, Sectionwrapper } from "../components";
 
 export default function Home() {
